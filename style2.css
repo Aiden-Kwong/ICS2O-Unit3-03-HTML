@@ -1,0 +1,43 @@
+.header {
+  border-style: solid;
+  padding-left: 33%;
+  padding-right: 33%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  float: left;
+  width: 33%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.header-image {
+  height: 100px;
+  float: right;
+  width: 100px;
+  padding: 2%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.columns {
+  column-count: 3;
+  column-gap: 10px;
+  column-rule-style: solid;
+  border-style: solid;
+}
+
+.column-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer {
+  padding left: 25%;
+  padding right: 25%;
+  text-align: center;
+  border-style: solid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
