@@ -1,0 +1,34 @@
+.fixedheader {
+  margin: auto;
+  width: 90%;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-style: solid;
+  background-color: white;
+  text-align: center;
+}
+
+.left-para {
+  float: left;
+  border-style: solid;
+  padding: 1%
+}
+
+.right-image {
+  height: 100px;
+  float: right;
+  padding: 2%
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.image {
+  height: 2000px;
+  width: 500px;
+}
