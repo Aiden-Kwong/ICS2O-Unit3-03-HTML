@@ -13,13 +13,13 @@
 .left-para {
   float: left;
   border-style: solid;
-  padding: 1%
+  padding: 1%;
 }
 
 .right-image {
   height: 100px;
   float: right;
-  padding: 2%
+  padding: 2%;
 }
 
 .clearfix::after {
